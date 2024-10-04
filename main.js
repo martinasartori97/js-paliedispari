@@ -24,11 +24,6 @@ if (word === parolaInvertita) {
 
 
 
-
-
-
-
-
 //pari e dispari
 // l'utente sceglie pari o dispari e inserisce un numero da 1 a 5.
 const scelta = prompt("scegli pari o dispari");
@@ -62,6 +57,16 @@ if (numeroUtente >= 1 && numeroUtente <= 5){
     console.log(somma);
     
 }else console.log(numero non valido);
+
+//dichiaro il vincitore
+if (somma === scelta){
+    console.log("hai vinto");
+}else {
+    console.log("hai perso");
+    
+}
+    
+    
 
 
 
