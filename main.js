@@ -7,4 +7,4 @@ console.log(word);
 
 
 // creo la funzione per verificare se la parola inserita è palindroma
-function ispalindroma(word)
+function is_palindroma(word)
