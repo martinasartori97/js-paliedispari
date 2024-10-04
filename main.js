@@ -37,7 +37,7 @@ const scelta = prompt("scegli pari o dispari");
 const numeroUtente =
 for (let i = 0; i < 5; i++)
 
-    //chiedo all'utente di inserire un numero da 1 a 5
+//chiedo all'utente di inserire un numero da 1 a 5
     numeroUtente = parseInt(prompt("inserisci un numero da 1 a 5"))
 
 //verifico se il numero è valido
@@ -54,6 +54,15 @@ const generaNumeroRandom = generaNumeroRandom();
 function generaNumeroRandom() {
     return Math.floor(Math.random) * 5 + 1;
     console.log(generaNumeroRandom);
-
 }
+
+// sommo i due numeri e stabilisco se la somma è pari o dispari
+if (numeroUtente >= 1 && numeroUtente <= 5){
+    const somma = numeroUtente + generaNumeroRandom;
+    console.log(somma);
+    
+}else console.log(numero non valido);
+
+
+
 
