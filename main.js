@@ -7,7 +7,7 @@ const word = prompt("inserisci una parola");
 console.log(word);
 
 // creo la funzione per verificare se la parola inserita è palindroma
-function ispalindroma(word)
+function ispalidroma(word)
 
 
 
