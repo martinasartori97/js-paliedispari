@@ -1,13 +1,26 @@
 // prova collegamento javascript
 console.log("hello");
 
- // palidroma
- //Chiedo all’utente di inserire una parola
-const word = prompt("inserisci una parola");
-console.log(word);
+// palindroma
+//Chiedo all’utente di inserire una parola
+const userword = prompt("inserisci una parola");
+console.log(userword);
 
 // creo la funzione per verificare se la parola inserita è palindroma
-function ispalidroma(word)
+function ispalindroma(word) {
+    // se la parola letta per dritto è uguale alla parola letta al contrario allora è palindroma
+} word.split()
+word.reverse()
+word.join()
+console.log(word);
+if (word === parolaInvertita) {
+    console.log(ispalindroma);
+
+} else {
+    console.log(isnotpalindroma);
+
+}
+
 
 
 
