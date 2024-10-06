@@ -9,16 +9,17 @@ console.log(userword);
 // creo la funzione per verificare se la parola inserita è palindroma
 function ispalindroma(word) {
     // se la parola letta per dritto è uguale alla parola letta al contrario allora è palindroma
-} word.split()
-word.reverse()
-word.join()
-console.log(word);
-if (word === parolaInvertita) {
-    console.log(ispalindroma);
+    let parolaInvertita = word.split()
+    parolaInvertita = parolaInvertita.reverse()
+    parolaInvertita = parolaInvertita.join()
+    console.log(word);
+    if (word === parolaInvertita) {
+        console.log(ispalindroma);
 
-} else {
-    console.log(isnotpalindroma);
+    } else {
+        console.log(isnotpalindroma);
 
+    }
 }
 
 
